@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css" >
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img id="logo" src="./images/logo.svg" alt="logo">
+    </div>
+    <div class="hero">
+      <img class="photo" src="./images/hero-mobile.jpg" alt="lady-photo">
+      <img class="photo1" src="./images/hero-desktop.jpg" alt="lady-photo">
+    </div>
+    <div class="heading">
+      <h1><span>We're</span> <br/>coming <br/> soon</h1>
+    </div>
+    <div class="info">
+      Hello fellow shoppers! We're currently building our new fashion store. 
+      Add your email below to stay up-to-date with announcements and our launch deals.
+    </div>
+    <div class="send">
+      <form id="form1">
+        <label for="email"><input id="email" type="email" name="email" placeholder="Email Address" ></label>
+        <button type="submit">
+          <img id="arrow" src="./images/icon-arrow.svg" alt="arrow-button">
+          <img style="display:none" id="icon-error" src="./images/icon-error.svg" alt="error icon">
+        </button>
+      </form>
+      <p id="error" style="display:none">Please provide a valid email.</p>
+      <p id="success" style="display:none">Welcome!!</p> 
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Khalagai</a>.
+    </p>
+  </footer>
+  <script src="./index.js" charset="UTF-8"></script>
+</body>
+</html>
